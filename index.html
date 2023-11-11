@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Student registration</title>
 </head>
 <body>
-    <h1 class="text-[20px] font-sans">Hello world</h1>
+    <div class="str_container w-2/5 m-auto my-[60px]">
+        <h1 class="text-center text-[48px]">Student Registration</h1>
+        <form class="mt-[32px] flex flex-col gap-[16px]" action="">
+            <label for="first_name">
+                <input type="text" class="w-full border-[1px] active:outline-none focus:outline-none p-[8px] border-[#c2c2c2] rounded-[8px]" name="first_name" id="first_name" placeholder="First Name">
+            </label>            
+            <label for="last_name">
+                <input type="text" class="w-full border-[1px] p-[8px] border-[#c2c2c2] rounded-[8px]" name="last_name" id="last_name" placeholder="Last Name">
+            </label>
+            <label for="email">
+                <input type="text" class="w-full border-[1px] p-[8px] border-[#c2c2c2] rounded-[8px]" name="email" id="email" placeholder="Email">
+            </label>
+            <label for="phone">
+                <input type="text" class="w-full border-[1px] p-[8px] border-[#c2c2c2] rounded-[8px]" name="phone" id="phone" placeholder="Phone">
+            </label>
+            <label for="password">
+                <input type="password" class="w-full border-[1px] p-[8px] border-[#c2c2c2] rounded-[8px]" name="password" id="password" placeholder="Password">
+            </label>
+            <label for="confirm_password">
+                <input type="password" class="w-full border-[1px] p-[8px] border-[#c2c2c2] rounded-[8px]" name="confirm_password" id="confirm_password" placeholder="Confirm password">
+            </label>
+            <label for="confirm_password" class="text-center">
+                <button class="bg-blue-500 px-[16px] py-[8px] rounded-[8px] text-[white]">Register</button>
+            </label>
+        </form>
+    </div>
 </body>
 </html>

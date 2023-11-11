@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.str_container input:focus,
+.str_container input:active{
+    @apply outline-none;
+}
